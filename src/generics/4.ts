@@ -14,7 +14,15 @@ let test = createOrUpdateUser({
   password: 'test' 
 })
 
+let test1 = createOrUpdateUser({ 
+  name: "britney",
+  surname: "spears",
+  email: 'asdasdsad.com', 
+  password: 'testasdsad' 
+})
+
 console.log(test);
+console.log(test1);
 
 test.email = "test2@mail.com"
 test.surname = "bob"
